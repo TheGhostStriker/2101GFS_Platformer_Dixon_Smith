@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1322795400381839786}
   - component: {fileID: 1322795400381839787}
   - component: {fileID: 3830068626680929037}
+  - component: {fileID: 7097409281741726510}
   m_Layer: 0
   m_Name: Cushion
   m_TagString: Untagged
@@ -125,3 +126,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bounceForce: {x: 0, y: 1000}
   filterTag: Player
+--- !u!114 &7097409281741726510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322795400381839785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
+  m_ShapePath:
+  - {x: -0.43217444, y: -0.115, z: 0}
+  - {x: 0.43217444, y: -0.115, z: 0}
+  - {x: 0.43217444, y: 0.115, z: 0}
+  - {x: -0.43217444, y: 0.115, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -2952

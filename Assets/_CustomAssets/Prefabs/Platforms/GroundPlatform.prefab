@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3836421845336231879}
   - component: {fileID: 3836421845336231881}
   - component: {fileID: 3836421845336231880}
+  - component: {fileID: 6078226640263996769}
   m_Layer: 0
   m_Name: GroundPlatform
   m_TagString: Untagged
@@ -110,3 +111,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6078226640263996769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3836421845336231878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
+  m_ShapePath:
+  - {x: -71.25, y: -10, z: 0}
+  - {x: 71.25, y: -10, z: 0}
+  - {x: 71.25, y: 10, z: 0}
+  - {x: -71.25, y: 10, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -2960
