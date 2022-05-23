@@ -7,6 +7,13 @@ public class SetVolume : MonoBehaviour
 {
     public AudioMixer mixer;
 
+    private void Awake()
+    {
+      //  GameObject[] objs = GameObject.FindGameObjectsWithTag("Volume");
+
+        DontDestroyOnLoad(this.gameObject);
+
+    }
     public void SetLevel (float sliderValue)
     {
         mixer.SetFloat("MyMusicVol", Mathf.Log10 (sliderValue) * 20 );
