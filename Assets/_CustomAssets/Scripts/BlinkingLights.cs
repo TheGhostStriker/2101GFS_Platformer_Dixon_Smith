@@ -6,18 +6,18 @@ public class BlinkingLights : MonoBehaviour
 {
     public GameObject myLightObject;
     public bool isLightOn;
-    // Start is called before the first frame update
+
     private void Start()
     {
         isLightOn = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (isLightOn == true)
         {
             StartCoroutine(TurnLightsOff());
+        
         }
         if (isLightOn == false)
         {
@@ -27,8 +27,8 @@ public class BlinkingLights : MonoBehaviour
 
     IEnumerator TurnLightsOff()
     {
-        yield return new WaitForSeconds(3.075f);
-        TurnLightsOff();
+        yield return new WaitForSeconds(Random.Range(0.5f, 5.9f));
+        LightsOff();
     }
 
     void LightsOff()
@@ -39,8 +39,8 @@ public class BlinkingLights : MonoBehaviour
 
     IEnumerator TurnLightsOn()
     {
-        yield return new WaitForSeconds(3.075f);
-        TurnLightsOn();
+        yield return new WaitForSeconds(Random.Range(6.0f, 15f));
+        LightsOn();
     }
 
     void LightsOn()
