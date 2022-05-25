@@ -47,8 +47,9 @@ public class Key : MonoBehaviour {
 
     private void PickUp()
     {
-        // audioTrigger.Play();
+        
         Destroy(gameObject);
+        
     }
 
 }
