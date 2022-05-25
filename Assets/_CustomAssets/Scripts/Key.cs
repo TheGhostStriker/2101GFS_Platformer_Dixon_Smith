@@ -10,16 +10,19 @@ public class Key : MonoBehaviour {
     private Text pickUpText;
 
     private bool pickUpAllowed;
+    private AudioSource audioTrigger;
 
 	// Use this for initialization
 	private void Start () {
         pickUpText.gameObject.SetActive(false);
+        audioTrigger = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
 	private void Update () {
         if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
             PickUp();
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -28,6 +31,8 @@ public class Key : MonoBehaviour {
         {
             pickUpText.gameObject.SetActive(true);
             pickUpAllowed = true;
+            audioTrigger.Play();
+
         }        
     }
     
@@ -42,6 +47,7 @@ public class Key : MonoBehaviour {
 
     private void PickUp()
     {
+        // audioTrigger.Play();
         Destroy(gameObject);
     }
 

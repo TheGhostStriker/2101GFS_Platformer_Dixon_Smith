@@ -8,7 +8,7 @@ public class DestroyOnTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+       //Destroy(gameObject, 2f); // Destroy game object after 2 seconds
 
     }
 
@@ -16,7 +16,7 @@ public class DestroyOnTimer : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            Destroy(gameObject, 1.5f); // Destroy gameobject after 1 and a half seconds of player being on it!
+            Destroy(gameObject, 1.5f); // Destroy gameobject after 1 second of player being on it!
         }
     }
 }

@@ -17,7 +17,7 @@ public class AudioOnCollision : MonoBehaviour
         if (other.CompareTag("Player") && audioTrigger.isPlaying == false)
         {
             audioTrigger.Play();
-            if (playOnlyOnce) Destroy(gameObject, audioTrigger.clip.length);
+            // if (playOnlyOnce) Destroy(gameObject, audioTrigger.clip.length);
         }
     }
 
