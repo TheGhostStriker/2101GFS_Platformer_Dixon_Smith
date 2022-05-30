@@ -9,6 +9,8 @@ public class Key : MonoBehaviour {
     [SerializeField]
     private Text pickUpText;
 
+    public AudioSource pickupTrigger;
+
     private bool pickUpAllowed;
     private AudioSource audioTrigger;
 
@@ -23,6 +25,7 @@ public class Key : MonoBehaviour {
         if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
             PickUp();
         
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -31,7 +34,7 @@ public class Key : MonoBehaviour {
         {
             pickUpText.gameObject.SetActive(true);
             pickUpAllowed = true;
-            audioTrigger.Play();
+            // audioTrigger.Play();
 
         }        
     }
@@ -42,14 +45,17 @@ public class Key : MonoBehaviour {
         {
             pickUpText.gameObject.SetActive(false);
             pickUpAllowed = false;
+            // audioTrigger.Play();
         }
     }
 
     private void PickUp()
     {
-        
-        Destroy(gameObject);
-        
+        // Debug.Log("Object deleting, sound playing");
+        pickupTrigger.Play();
+        gameObject.SetActive(false);
     }
+        
+    
 
 }
