@@ -3,6 +3,7 @@ using System.Collections;
 
 public class LoadSceneOnEnter : MonoBehaviour 
 {
+	public Transform imageImage;
 	public string scene;
 	public string tag;
 
@@ -13,6 +14,7 @@ public class LoadSceneOnEnter : MonoBehaviour
 		if (other.tag == tag)
 		{
 			Application.LoadLevel (scene);
+			DontDestroyOnLoad(this.imageImage);
 		}
 	}
 }

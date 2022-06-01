@@ -5,7 +5,10 @@ using UnityEngine;
 public class IntentoryMenu : MonoBehaviour
 {
     [SerializeField] GameObject inventoryMenu;
+   
 
+
+    
     public void Inventory()
     {
         inventoryMenu.SetActive(true);

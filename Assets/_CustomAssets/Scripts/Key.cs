@@ -10,6 +10,7 @@ public class Key : MonoBehaviour {
     private Text pickUpText;
 
     public AudioSource pickupTrigger;
+    public Transform inventoryImage;
 
     private bool pickUpAllowed;
     private AudioSource audioTrigger;
@@ -52,10 +53,10 @@ public class Key : MonoBehaviour {
     private void PickUp()
     {
         // Debug.Log("Object deleting, sound playing");
+        inventoryImage.gameObject.SetActive(true);
         pickupTrigger.Play();
         gameObject.SetActive(false);
+       
     }
-        
     
-
 }
