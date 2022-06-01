@@ -19,6 +19,7 @@ public class Key : MonoBehaviour {
 	private void Start () {
         pickUpText.gameObject.SetActive(false);
         audioTrigger = GetComponent<AudioSource>();
+        DontDestroyOnLoad(inventoryImage);
 	}
 	
 	// Update is called once per frame
