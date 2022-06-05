@@ -11,6 +11,7 @@ public class Key : MonoBehaviour {
 
     public AudioSource pickupTrigger;
     public Transform inventoryImage;
+    public GameObject inventoryTrigger;
 
     private bool pickUpAllowed;
     private AudioSource audioTrigger;
@@ -19,8 +20,14 @@ public class Key : MonoBehaviour {
 	private void Start () {
         pickUpText.gameObject.SetActive(false);
         audioTrigger = GetComponent<AudioSource>();
-        DontDestroyOnLoad(inventoryImage);
+        
 	}
+    
+    private void Awake()
+    {
+        DontDestroyOnLoad(inventoryImage);
+        DontDestroyOnLoad(inventoryTrigger);
+    }
 	
 	// Update is called once per frame
 	private void Update () {
@@ -55,6 +62,7 @@ public class Key : MonoBehaviour {
     {
         // Debug.Log("Object deleting, sound playing");
         inventoryImage.gameObject.SetActive(true);
+        inventoryTrigger.gameObject.SetActive(true);
         pickupTrigger.Play();
         gameObject.SetActive(false);
        

@@ -279,6 +279,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1562558972473360278}
+  pickupTrigger: {fileID: 9126756047436364352}
+  inventoryImage: {fileID: 5744025786166589219, guid: 20ab5c8b4f14c174b9f4b24c5ddcb693,
+    type: 3}
+  inventoryTrigger: {fileID: 7353155183844441100, guid: f78809888b5cc324bac9f124103f6a43,
+    type: 3}
 --- !u!58 &4424083869334713885
 CircleCollider2D:
   m_ObjectHideFlags: 0
