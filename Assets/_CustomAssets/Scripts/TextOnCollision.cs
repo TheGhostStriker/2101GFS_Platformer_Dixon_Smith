@@ -20,6 +20,7 @@ public class TextOnCollision : MonoBehaviour
         {
             myText.enabled = true;
             myImage.enabled = true;
+            // Put Destroy here instead and remove TriggerExit
         }
     }
 
@@ -29,6 +30,7 @@ public class TextOnCollision : MonoBehaviour
         {
             myText.enabled = false;
             myImage.enabled = false;
+            Destroy(this.gameObject, 5f);
             
         }
     }
