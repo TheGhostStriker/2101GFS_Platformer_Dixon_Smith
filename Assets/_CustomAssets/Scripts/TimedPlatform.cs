@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class TimedPlatform : MonoBehaviour
 {
-    public Material activeMaterial;
+    public Sprite activeMaterial;
 
-    public Material inactiveMaterial;
+    public Sprite inactiveMaterial;
 
     public float blinkOffset;
 
@@ -28,12 +28,12 @@ public class TimedPlatform : MonoBehaviour
 
             if (active)
             {
-                GetComponent<MeshRenderer>().material = activeMaterial;
+                GetComponent<SpriteRenderer>().sprite = activeMaterial;
                 GetComponent<Collider2D>().enabled = active;
             }
             else
             {
-                GetComponent<MeshRenderer>().material = inactiveMaterial;
+                GetComponent<SpriteRenderer>().sprite = inactiveMaterial;
                 GetComponent<Collider2D>().enabled = active;
             }
 
