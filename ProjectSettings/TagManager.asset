@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Obstacle
   - Volume
+  - Soul
   layers:
   - Default
   - TransparentFX
