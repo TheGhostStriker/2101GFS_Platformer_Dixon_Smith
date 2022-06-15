@@ -275,14 +275,14 @@ RectTransform:
   m_GameObject: {fileID: 766240779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2193181, y: 0.2193181, z: 0.2193181}
   m_Children: []
   m_Father: {fileID: 2099281439}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -662, y: -1030}
+  m_AnchoredPosition: {x: -141, y: -225}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &766240781
@@ -321,7 +321,8 @@ MonoBehaviour:
   m_Text: "\t\t\t\t\t\t\t\t\tCREDITS\n\n\n\n\n\n\n\nMusic                                            
     Dark Fantasy Studios\n\n\n\nArtwork and Animations                 Madeline Dixon\n\n\n\nLevel
     Design                                  Clynton Smith\n\n\n\nLecturers                                       
-    Jamie Lack \n                                                       Zac Fitzwalter\n\n\n"
+    Jamie Lack \n                                                       Zac Fitzwalter\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tSPECIAL
+    THANKS TO EVERYONE\nWHO HELPED GET US THROUGH THIS PROJECT"
 --- !u!222 &766240782
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -377,7 +378,7 @@ RectTransform:
   m_GameObject: {fileID: 957811199}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.24386, y: 0.24386, z: 0.24386}
   m_Children:
   - {fileID: 427163541}
   m_Father: {fileID: 2099281439}
@@ -385,7 +386,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 877, y: -521}
+  m_AnchoredPosition: {x: 172, y: -110}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957811201
@@ -733,8 +734,8 @@ Canvas:
   m_GameObject: {fileID: 2099281435}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1049997549}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
