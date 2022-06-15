@@ -30,7 +30,7 @@ public class TextOnCollision : MonoBehaviour
         {
             myText.enabled = false;
             myImage.enabled = false;
-            Destroy(this.gameObject, 5f);
+            
             
         }
     }
