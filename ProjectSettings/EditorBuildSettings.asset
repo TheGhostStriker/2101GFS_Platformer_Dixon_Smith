@@ -6,33 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/MS3 Scenes/Main Menu.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/MenuScenes/Main Menu.unity
     guid: 6d15533064dbd044e992047f463edca5
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/MS3 Scenes/OptionsMenu.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/MenuScenes/OptionsMenu.unity
     guid: f755c9ecae3241c48a62ec24d6e9d7da
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/Stage 1 Scenes/Entrance.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/StageOneScenes/Entrance.unity
     guid: b7cfc1964d30b1b46b4807fab0e66df3
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/Stage 1 Scenes/LivingRoom.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/StageOneScenes/LivingRoom.unity
     guid: be2df7c7797ed4d48b2dc19330c95a62
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/Stage 1 Scenes/Bedroom.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/StageOneScenes/Bedroom.unity
     guid: 979770db5de769a41804c10bff98be7d
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/Stage 1 Scenes/TheKitchen.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/StageOneScenes/TheKitchen.unity
     guid: a3fbd12945dbfb54fa808a296345f77f
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/Stage 2 Scenes/Garden.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/StageTwoScenes/Garden.unity
     guid: e22a844f8eab2054081f63bf137a4c3a
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/Stage 2 Scenes/The Well.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/StageTwoScenes/The Well.unity
     guid: 095e40cb2d91d1d49a47154b85db2ebe
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/MS3 Scenes/ControlsMenu.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/MenuScenes/ControlsMenu.unity
     guid: 496e3ea75620b9748a52297872fd016f
   - enabled: 1
-    path: Assets/_CustomAssets/Scenes/MS3 Scenes/Credits.unity
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/MenuScenes/Credits.unity
     guid: dac9b703ff454914a8ca460a9da7c306
   m_configObjects: {}
