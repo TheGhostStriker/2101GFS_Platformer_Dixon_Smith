@@ -9,6 +9,7 @@ TagManager:
   - Obstacle
   - Volume
   - Soul
+  - Platform
   layers:
   - Default
   - TransparentFX
