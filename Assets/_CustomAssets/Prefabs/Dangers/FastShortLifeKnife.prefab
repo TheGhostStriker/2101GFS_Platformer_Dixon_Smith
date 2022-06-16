@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6933254864705897211}
   - component: {fileID: 8916504583850545588}
   m_Layer: 0
-  m_Name: Knife 2
+  m_Name: FastShortLifeKnife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -271,4 +271,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87020da1d80d77c4b84b53c398a56756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 5.6
+  lifeTime: 3
