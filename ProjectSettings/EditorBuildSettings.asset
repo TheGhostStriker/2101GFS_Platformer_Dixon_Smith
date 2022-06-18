@@ -30,6 +30,12 @@ EditorBuildSettings:
     path: Assets/_CustomAssets/Scenes/Scenes_For_Build/StageTwoScenes/The Well.unity
     guid: 095e40cb2d91d1d49a47154b85db2ebe
   - enabled: 1
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/StageThreeScenes/The Basement.unity
+    guid: 5dec06eff53a0c04f96c29832ff28d7f
+  - enabled: 1
+    path: Assets/_CustomAssets/Scenes/Scenes_For_Build/StageThreeScenes/Ending.unity
+    guid: d9e6ca105df4b31429c7a7f19eab9a69
+  - enabled: 1
     path: Assets/_CustomAssets/Scenes/Scenes_For_Build/MenuScenes/ControlsMenu.unity
     guid: 496e3ea75620b9748a52297872fd016f
   - enabled: 1
