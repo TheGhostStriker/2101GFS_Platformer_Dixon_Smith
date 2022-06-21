@@ -14,6 +14,6 @@ public class ShowValueScript : MonoBehaviour
 
     public void textUpdate (float value)
     {
-        percentageText.text = Mathf.RoundToInt(value * 100) + "%";
+        percentageText.text = Mathf.RoundToInt(value * 100) + "";
     }
 }
