@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bcbc3b82d0b244b9beb1dcc0da6cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageImage: {fileID: 0}
   scene: CharacterDemo2
   tag: Player
 --- !u!70 &8465853424902057817
@@ -136,7 +137,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d,
     type: 3}
-  m_Color: {r: 0, g: 0.30410346, b: 0.990566, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
