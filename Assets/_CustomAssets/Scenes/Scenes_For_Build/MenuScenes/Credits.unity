@@ -274,14 +274,14 @@ RectTransform:
   m_GameObject: {fileID: 766240779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.62218356, y: 0.62218356, z: 0.62218356}
+  m_LocalScale: {x: 0.4972995, y: 0.4972995, z: 0.4972995}
   m_Children: []
   m_Father: {fileID: 2099281439}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -484, y: -65}
+  m_AnchoredPosition: {x: -296, y: -169}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &766240781
@@ -317,8 +317,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\t\t\t\t\t\t\t\t\tCREDITS\n\n\n\n\n\nMusic                                            
-    Dark Fantasy Studios\n\n\n\nArtwork and                            Madeline Dixon\nAnimations\n\n\n\n\nLevel
+  m_Text: "\t\t\t\t\t\t\t\t\tCREDITS\n\n\n\n\nMusic                                            
+    Dark Fantasy Studios\n\n\n\nArtwork and                            Madeline Dixon\nAnimations\n\n\n\nLevel
     Design                                Clynton Smith\n\n\n\n"
 --- !u!222 &766240782
 CanvasRenderer:
@@ -356,7 +356,7 @@ RectTransform:
   m_GameObject: {fileID: 957811199}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.6106658, y: 2.6106658, z: 2.6106658}
+  m_LocalScale: {x: 1.3771639, y: 1.3771639, z: 1.3771639}
   m_Children:
   - {fileID: 427163541}
   m_Father: {fileID: 2099281439}
@@ -364,7 +364,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 737, y: -490}
+  m_AnchoredPosition: {x: 426, y: -351}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957811201
@@ -605,7 +605,7 @@ RectTransform:
   m_GameObject: {fileID: 1138366554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 25.952047, y: 15.89563, z: 12.976024}
+  m_LocalScale: {x: 16.773611, y: 10.273837, z: 8.386806}
   m_Children: []
   m_Father: {fileID: 2099281439}
   m_RootOrder: 0
