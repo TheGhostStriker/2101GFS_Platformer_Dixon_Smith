@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: e8ee289168bb64d468cd39072aea8559
+guid: cf45d24a260fa074aafc2998c201a47d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1113692313816769096
-    second: Main_Char_Walk_0
+      213: -5827251865782626507
+    second: Hugo Walk Sheet_0
   - first:
-      213: 8004633978369101719
-    second: Main_Char_Walk_1
+      213: 355045337009042988
+    second: Hugo Walk Sheet_1
   - first:
-      213: 4033700798543887403
-    second: Main_Char_Walk_2
+      213: 7121847061726542698
+    second: Hugo Walk Sheet_2
   - first:
-      213: -6976500306456252699
-    second: Main_Char_Walk_3
+      213: -4351799136903999748
+    second: Hugo Walk Sheet_3
   - first:
-      213: -8514973180578964429
-    second: Main_Char_Walk_4
+      213: -1175252258731197369
+    second: Hugo Walk Sheet_4
   - first:
-      213: -8447321370551707545
-    second: Main_Char_Walk_5
+      213: 9001010056380236232
+    second: Hugo Walk Sheet_5
   - first:
-      213: -5459559297416978449
-    second: Main_Char_Walk_6
+      213: -6465953330574474865
+    second: Hugo Walk Sheet_6
   - first:
-      213: -7640776869586007305
-    second: Main_Char_Walk_7
+      213: -499245253532052346
+    second: Hugo Walk Sheet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,97 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Main_Char_Walk_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3510
-        width: 2482
-        height: 3510
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bd5eddbdbe5b80f0800000000000000
-      internalID: -1113692313816769096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main_Char_Walk_1
-      rect:
-        serializedVersion: 2
-        x: 2482
-        y: 3510
-        width: 2482
-        height: 3510
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79f46b5613c261f60800000000000000
-      internalID: 8004633978369101719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main_Char_Walk_2
-      rect:
-        serializedVersion: 2
-        x: 4964
-        y: 3510
-        width: 2482
-        height: 3510
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2cfa6b31859af730800000000000000
-      internalID: 4033700798543887403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main_Char_Walk_3
-      rect:
-        serializedVersion: 2
-        x: 7446
-        y: 3510
-        width: 2482
-        height: 3510
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ee65423fed7e2f90800000000000000
-      internalID: -6976500306456252699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main_Char_Walk_4
+      name: Hugo Walk Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2482
-        height: 3510
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33cdc9ba10db4d980800000000000000
-      internalID: -8514973180578964429
+      spriteID: 5375b4b5d41712fa0800000000000000
+      internalID: -5827251865782626507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_Char_Walk_5
+      name: Hugo Walk Sheet_1
       rect:
         serializedVersion: 2
-        x: 2482
+        x: 400
         y: 0
-        width: 2482
-        height: 3510
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76813b428f515ca80800000000000000
-      internalID: -8447321370551707545
+      spriteID: c2635975adf5de400800000000000000
+      internalID: 355045337009042988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_Char_Walk_6
+      name: Hugo Walk Sheet_2
       rect:
         serializedVersion: 2
-        x: 4964
+        x: 800
         y: 0
-        width: 2482
-        height: 3510
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fef9747bebfbb34b0800000000000000
-      internalID: -5459559297416978449
+      spriteID: a6bbed26b22e5d260800000000000000
+      internalID: 7121847061726542698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_Char_Walk_7
+      name: Hugo Walk Sheet_3
       rect:
         serializedVersion: 2
-        x: 7446
+        x: 1200
         y: 0
-        width: 2482
-        height: 3510
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,8 +192,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fa0e407be186f590800000000000000
-      internalID: -7640776869586007305
+      spriteID: cfe4cf6edbd4b93c0800000000000000
+      internalID: -4351799136903999748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo Walk Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cf9d42c4aa0bfe0800000000000000
+      internalID: -1175252258731197369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo Walk Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c14346f4f20aec70800000000000000
+      internalID: 9001010056380236232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo Walk Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81cad434b15446a0800000000000000
+      internalID: -6465953330574474865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo Walk Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6841c6746135219f0800000000000000
+      internalID: -499245253532052346
       vertices: []
       indices: 
       edges: []
