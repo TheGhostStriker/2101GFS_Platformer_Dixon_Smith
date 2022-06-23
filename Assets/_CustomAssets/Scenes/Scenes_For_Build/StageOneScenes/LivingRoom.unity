@@ -2278,6 +2278,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 822080240266090189, guid: e17e9dd121e2225419b2022b90397eda,
         type: 3}
+      propertyPath: m_Color.b
+      value: 0.86743504
+      objectReference: {fileID: 0}
+    - target: {fileID: 822080240266090189, guid: e17e9dd121e2225419b2022b90397eda,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.86743504
+      objectReference: {fileID: 0}
+    - target: {fileID: 822080240266090189, guid: e17e9dd121e2225419b2022b90397eda,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 822080240266090189, guid: e17e9dd121e2225419b2022b90397eda,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -5468,11 +5483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.191652
+      value: -22.279999
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.025862
+      value: -9.069999
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9510,6 +9525,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2053786027}
     m_Modifications:
+    - target: {fileID: 822080240266090189, guid: e17e9dd121e2225419b2022b90397eda,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.8329477
+      objectReference: {fileID: 0}
+    - target: {fileID: 822080240266090189, guid: e17e9dd121e2225419b2022b90397eda,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.8329477
+      objectReference: {fileID: 0}
+    - target: {fileID: 822080240266090189, guid: e17e9dd121e2225419b2022b90397eda,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9245283
+      objectReference: {fileID: 0}
     - target: {fileID: 822080240266090189, guid: e17e9dd121e2225419b2022b90397eda,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
