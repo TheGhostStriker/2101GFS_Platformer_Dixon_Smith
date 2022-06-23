@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3071710808915835175}
   - component: {fileID: 7826118751983410744}
   - component: {fileID: 3606407712319950580}
-  - component: {fileID: -4849980834346284362}
   - component: {fileID: 3152307517227030790}
   m_Layer: 0
   m_Name: BreakingPlatform
@@ -97,32 +96,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 882efb93e943dad45aa150bcb466bf92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-4849980834346284362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2405483432953574027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
-  m_ShapePath:
-  - {x: 0.8841934, y: 0.77259207, z: 0}
-  - {x: 10.410088, y: 0.772594, z: 0}
-  - {x: 10.449844, y: 3.5621781, z: 0}
-  - {x: 0.8841934, y: 3.6019464, z: 0}
-  m_ShapePathHash: -653276771
-  m_Mesh: {fileID: 0}
-  m_InstanceId: 75976
 --- !u!61 &3152307517227030790
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -140,7 +113,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 27.324455, y: 20.48}
+    oldSize: {x: 27.320002, y: 20.49}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

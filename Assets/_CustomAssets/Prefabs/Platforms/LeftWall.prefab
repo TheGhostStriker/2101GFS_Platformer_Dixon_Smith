@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3667087302400613585}
   - component: {fileID: 818284767596836376}
   - component: {fileID: 7737649567266982012}
-  - component: {fileID: -2147693631828871326}
   m_Layer: 0
   m_Name: LeftWall
   m_TagString: Untagged
@@ -111,29 +110,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &-2147693631828871326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4735323260176512965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_HasRenderer: 0
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
-  m_ShapePath:
-  - {x: -5, y: -80.46198, z: 0}
-  - {x: 5, y: -80.46198, z: 0}
-  - {x: 5, y: 80.46198, z: 0}
-  - {x: -5, y: 80.46198, z: 0}
-  m_ShapePathHash: 0
-  m_Mesh: {fileID: 0}
-  m_InstanceId: -2968

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4198698528835654857}
   - component: {fileID: 4198698528835654860}
   - component: {fileID: 4198698528835654861}
-  - component: {fileID: 3582404563921029882}
   - component: {fileID: 51110313966111140}
   m_Layer: 0
   m_Name: BlinkingPlatform
@@ -51,7 +50,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 27.324455, y: 20.48}
+    oldSize: {x: 27.320002, y: 20.49}
     newSize: {x: 27.324455, y: 20.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -77,32 +76,6 @@ MonoBehaviour:
   blinkOffset: 1.25
   blinkLength: 2.5
   active: 1
---- !u!114 &3582404563921029882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4198698528835654850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
-  m_ShapePath:
-  - {x: -3, y: -0.5, z: 0}
-  - {x: 3, y: -0.5, z: 0}
-  - {x: 3, y: 0.5, z: 0}
-  - {x: -3, y: 0.5, z: 0}
-  m_ShapePathHash: 0
-  m_Mesh: {fileID: 0}
-  m_InstanceId: 77732
 --- !u!212 &51110313966111140
 SpriteRenderer:
   m_ObjectHideFlags: 0

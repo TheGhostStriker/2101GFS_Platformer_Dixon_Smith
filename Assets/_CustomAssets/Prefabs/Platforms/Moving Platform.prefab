@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2487075449836716461}
   - component: {fileID: -7236772879640906970}
   - component: {fileID: 5035446172660382306}
-  - component: {fileID: -1500836907571342560}
   - component: {fileID: 8744415214367361621}
   m_Layer: 0
   m_Name: Moving Platform
@@ -122,32 +121,6 @@ MonoBehaviour:
   pos1: {fileID: 0}
   pos2: {fileID: 0}
   platformSpeed: 4
---- !u!114 &-1500836907571342560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8500325452864505956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_ApplyToSortingLayers: 2b73117ceb75360e477daac09525809b000000008b5b1a7f
-  m_ShapePath:
-  - {x: -4.8625, y: -0.5, z: 0}
-  - {x: 4.8625, y: -0.5, z: 0}
-  - {x: 4.8625, y: 0.5, z: 0}
-  - {x: -4.8625, y: 0.5, z: 0}
-  m_ShapePathHash: 0
-  m_Mesh: {fileID: 0}
-  m_InstanceId: 86392
 --- !u!68 &8744415214367361621
 EdgeCollider2D:
   m_ObjectHideFlags: 0
