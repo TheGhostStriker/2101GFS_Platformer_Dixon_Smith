@@ -12249,6 +12249,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneManager
       objectReference: {fileID: 0}
+    - target: {fileID: 235665035310050548, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 235665035310050548, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 235665035310050549, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 99446a998998a2543a445bf33a0df192,
+        type: 3}
+    - target: {fileID: 235665035310050549, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 235665035310050549, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 235665035310050549, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 235665035310050549, guid: ef2c1b240a3538346b68727d178ae6a3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12264,6 +12295,26 @@ PrefabInstance:
       propertyPath: imageImage
       value: 
       objectReference: {fileID: 554319948}
+    - target: {fileID: 8465853424902057817, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.5741196
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465853424902057817, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 5.2552366
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465853424902057817, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.2905693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465853424902057817, guid: ef2c1b240a3538346b68727d178ae6a3,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 1.1429257
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef2c1b240a3538346b68727d178ae6a3, type: 3}
 --- !u!1 &1784666668
